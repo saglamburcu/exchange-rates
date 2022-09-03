@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="first-container">
+      <h1>Currency App</h1>
+      <input id="amount" type="number" placeholder="Amount">
+
+      <section class="first-currency">
+        <select id="first">
+          <option selected>USD</option>
+          <option>JPY</option>
+          <option>AUD</option>
+          <option>TRY</option>
+          <option>EUR</option>
+        </select>
+      </section>
+
+      <section class="second-currency">
+        <select id="second">
+          <option selected>TRY</option>
+          <option>USD</option>
+          <option>JPY</option>
+          <option>AUD</option>
+          <option>EUR</option>
+        </select>
+      </section>
+    </div>
+
+    <div class="second-container">
+      <div class="unit">
+        <h3>USD</h3>
+        <span>-</span>
+        <h3>TRY</h3>
+      </div>
+      <input id="result" type="text" placeholder="Result" readonly>
+    </div>
+  </div>
+
+  <script src="currency.js"></script>
+  <script src="ui.js"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>
