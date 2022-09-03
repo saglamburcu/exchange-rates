@@ -11,6 +11,7 @@
   place-items: center;
   position: relative;
   background-color: rgb(242, 248, 253);
+  text-align: center;
 }
 
 .first-container {
@@ -20,20 +21,31 @@
   height: 50%;
   border-radius: 10px;
   box-shadow: 5px 3px 15px -4px #707070;
-  background-color: white;
+  background-color: white; 
+  padding-top: 70px;
 }
 
 .second-container {
   position: absolute;
-  top: 400px;
+  top: 60%;
   width: 60%;
   height: 25%;
   margin-top: 0px;
   border-radius: 10px;
   box-shadow: 5px 3px 15px -4px #707070;
   background-color: white;
+  padding-top: 50px;
 }
 
 .unit {
   display: flex;
+  justify-content: center;
+}
+
+input,
+select {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
 }
